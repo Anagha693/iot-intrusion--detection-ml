@@ -70,7 +70,7 @@ Feature subsets of different sizes (k = 5, 10, 15, 20 and 54) were evaluated to 
 
 The following diagram illustrates the research workflow, from dataset preparation and feature selection to model training and performance evaluation.
 
-![IoT Intrusion Detection Project Pipeline](https://raw.githubusercontent.com/Angha693/iot-intrusion--detection-ml/main/pipelineee.png)
+![IoT Intrusion Detection Pipeline](pipelineee.png)
 
 ---
 
