@@ -70,7 +70,7 @@ The following diagram illustrates the end-to-end analytical workflow,
 from data preparation through analysis and dashboard development.
 
 ![Project Pipeline](pipelineee.png)
-```
+---
 ## Key Results
 
 - Tree-based models achieved the best overall performance
