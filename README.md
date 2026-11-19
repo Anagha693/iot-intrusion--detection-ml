@@ -1,24 +1,24 @@
-````md
+
 # IoT Intrusion Detection using Machine Learning
 
-A machine learning–based intrusion detection project focused on identifying malicious IoT network traffic using statistical feature selection and supervised classification models on the Bot-IoT dataset.
+A machine learning-based intrusion detection project investigating the impact of feature dimensionality on identifying malicious IoT network traffic using statistical feature selection and supervised classification models on the BoT-IoT dataset.
 
 ---
 
 ## Project Highlights
 
-- Analyzed **3.6M+ IoT network traffic records**
-- Evaluated **7 machine learning classifiers**
-- Applied statistical feature selection techniques
-- Studied the impact of feature dimensionality on intrusion detection performance
-- Achieved strong classification performance using compact feature subsets
-- Research work presented/published at **IEEE WISPNET 2026**
+- Analysed 3.6M+ IoT network traffic records.
+- Evaluated 7 machine learning classifiers.
+- Applied three statistical feature selection techniques.
+- Investigated the relationship between feature subset size and model performance.
+- Identified performance saturation with compact feature subsets.
+- Research paper accepted at IEEE WiSPNET 2026.
 
 ---
 
 ## Tech Stack
 
-### Languages & Libraries
+### Programming Languages and Libraries
 - Python
 - Pandas
 - NumPy
@@ -26,9 +26,9 @@ A machine learning–based intrusion detection project focused on identifying ma
 - Matplotlib
 - Seaborn
 
-### Concepts Used
+### Analytical Concepts
 - Data Preprocessing
-- Feature Engineering
+- Exploratory Data Analysis
 - Feature Selection
 - Machine Learning Classification
 - Model Evaluation
@@ -38,13 +38,13 @@ A machine learning–based intrusion detection project focused on identifying ma
 
 ## Machine Learning Models
 
-- Logistic Regression
-- Support Vector Machine (SVM)
-- k-Nearest Neighbors (KNN)
-- Decision Tree
-- Random Forest
-- Gaussian Naive Bayes
-- Linear Discriminant Analysis (LDA)
+1. Logistic Regression
+2. Support Vector Machine (SVM)
+3. k-Nearest Neighbors (KNN)
+4. Decision Tree
+5. Random Forest
+6. Gaussian Naive Bayes
+7. Linear Discriminant Analysis (LDA)
 
 ---
 
@@ -54,38 +54,44 @@ A machine learning–based intrusion detection project focused on identifying ma
 - Chi-Square Test
 - Fisher Score
 
+Feature subsets of different sizes (k = 5, 10, 15, 20 and 54) were evaluated to study the effect of dimensionality on classification performance.
+
 ---
 
 ## Evaluation Metrics
 
-- F1-Score
+- Macro-F1 Score
 - Balanced Accuracy
 - Matthews Correlation Coefficient (MCC)
-- Accuracy
 
 ---
+
 ## Project Workflow
 
-The following diagram illustrates the end-to-end analytical workflow,
-from data preparation through analysis and dashboard development.
+The following diagram illustrates the research workflow, from dataset preparation and feature selection to model training and performance evaluation.
 
-![IoT Intrusion Detection Project Pipeline](pipelineee.png)
+![IoT Intrusion Detection Project Pipeline](https://raw.githubusercontent.com/Angha693/iot-intrusion--detection-ml/main/pipelineee.png)
+
 ---
-## Key Results
 
-- Tree-based models achieved the best overall performance
-- Detection performance saturated around **15–20 features**
-- Compact feature subsets reduced computational cost while maintaining strong classification performance
-- Feature relevance was more important than feature count
+## Key Findings
+
+- Tree-based models demonstrated strong classification performance.
+- Performance generally approached saturation with approximately 15–20 selected features.
+- Increasing the number of features did not consistently improve classification performance.
+- Compact feature subsets offered a way to reduce dimensionality while maintaining competitive model performance.
+- Feature selection methods influenced the resulting model performance.
 
 ---
 
 ## Repository Contents
 
 ```text
-.
+iot-intrusion--detection-ml/
+│
 ├── intrusion_detection_analysis.ipynb
 ├── presentation.pdf
+├── pipelineee.png
 └── README.md
 ```
 
@@ -93,9 +99,19 @@ from data preparation through analysis and dashboard development.
 
 ## Dataset
 
-- **Dataset:** Bot-IoT Dataset
-- Source: UNSW Canberra Cyber Range Lab
+**Dataset:** BoT-IoT Dataset  
+**Source:** UNSW Canberra Cyber Range Lab
 
-Dataset Link:  
-https://research.unsw.edu.au/projects/bot-iot-dataset
-````
+Dataset: https://research.unsw.edu.au/projects/bot-iot-dataset
+
+---
+
+## Research Publication
+
+**Title:** Assessing the Impact of Feature Dimensionality on IoT Intrusion Detection
+
+**Conference:** IEEE WiSPNET 2026
+
+**Track:** Network Security, Privacy, and Quantum Communications
+
+**Status:** Accepted
